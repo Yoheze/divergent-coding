@@ -1,0 +1,31 @@
+/* normally I write more CSS and love designing websites but didn't want to make that the focal point of this assignment
+If you want to reference more about my CSS I mention it in the readme. */
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+p, h3, h4{
+    text-align: center;
+}
+
+h4{
+    border-top: dotted black 1px;
+    padding-top: 10px;
+}
+
+.warehouse{
+    border: 1px solid black;
+    width: 19vw;
+    display: block;
+}
+
+.organize-warehouses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5vw;
+    overflow: auto;
+}
